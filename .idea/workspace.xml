@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="366645a3-ae75-4d01-9dbb-8218f7baad3a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/SamVaLentin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SamVaLentin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/esqueleto.py" beforeDir="false" afterPath="$PROJECT_DIR$/esqueleto.py" afterDir="false" />
     </list>
@@ -43,7 +41,7 @@
   "keyToString": {
     "Python.esqueleto.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/Cuestionario",
+    "git-widget-placeholder": "develop",
     "last_opened_file_path": "C:/Users/jrodr/PycharmProjects/SamVaLentin"
   }
 }]]></component>
