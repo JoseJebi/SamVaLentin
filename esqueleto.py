@@ -15,7 +15,15 @@ logger = logging.getLogger(__name__)
 TOKEN = "8085222960:AAH6TDXo5-vYTniLrrbbh_VDIKAHG9fdL_w"
 
 pregunta = 0
+datos_usuario = {}
 
+preguntas = [
+    ("¿Cuál es tu edad?", ["18-22", "23-27", "28-33"]),
+    ("¿Cuál es tu sexo?", ["Hombre", "Mujer"]),
+    ("¿Qué buscas en una relación?", ["Relación estable", "Nada serio", "Duda"]),
+    ("¿Quieres tener hijos?", ["Sí", "No", "Duda"]),
+    ("¿Cuál es tu área de interés?", ["Informática", "Comercio", "Deporte", "Mecanizado"])
+]
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /start is issued."""
@@ -35,7 +43,7 @@ async def love(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         pregunta += 1
         logger.info(f"{user.mention_html()} ha empezado un nuevo cuestionario")
         await update.message.reply_html("¡Empecemos con un cuestionario para saber más sobre ti!\n"
-                                        "Puedes parar el cuestionario con /stop, o")
+                                        "Puedes parar el cuestionario con /stop, o volver a la pregunta anterior con /back")
 
 
 def main():
